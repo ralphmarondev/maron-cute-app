@@ -4,6 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
+import com.maronworks.maroncute.features.gallery.GalleryScreen
 import com.maronworks.maroncute.features.vscode.VsCode
 import com.maronworks.maroncute.screens.home.HomeScreen
 import com.maronworks.maroncute.screens.news.NewsScreen
@@ -31,6 +32,9 @@ fun NavGraphSetup(
         composable(Screens.VsCode.Route)
         {
             VsCode(navController)
+        }
+        composable(Screens.Gallery.Route) {
+            GalleryScreen(navController = navController)
         }
     }
 }

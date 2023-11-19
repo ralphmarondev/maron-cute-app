@@ -46,7 +46,7 @@ fun LeftTaskBar(
         // gallery
         IconButton(
             onClick = {
-
+                      navController.navigate(Screens.Gallery.Route)
             },
             modifier = Modifier
                 .size(width = 55.dp, height = 55.dp)
