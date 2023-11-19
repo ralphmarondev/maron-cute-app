@@ -22,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Text("Hello there, Ralph Maron Eda is cute!")
+                    MaronCuteApp()
                 }
             }
         }
